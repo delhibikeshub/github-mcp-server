@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.hero {
+  background: #000;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #e91e63;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.bike-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bike-card {
+  background: #222;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.booking input, .booking textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.booking button {
+  background: #e91e63;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #888;
+}
